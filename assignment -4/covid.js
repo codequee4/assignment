@@ -1,6 +1,7 @@
 function temperature(person){
     var results;
     var temperature=[];
+}
     if(temperature == 33){
         results = 'normal temperature';
     }
@@ -11,6 +12,6 @@ function temperature(person){
        results='test for covid 19';
    }
    else{
-       result='covid 19 negative';
+       results='covid 19 negative';
    }
    console.log(results);
